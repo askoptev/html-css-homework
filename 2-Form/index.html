@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <main>
+      <h1>Регистрация</h1>
+      <p>Уже есть аккаунт?</p>
+      <a href="#">Войти</a>
+      <h2>Моя компания:</h2>
+      <form action="#" method="post">
+        <div>
+          <div>
+            <input
+              type="text"
+              name="first-name"
+              id="first-name"
+              placeholder="Имя:"
+              required
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              name="last-name"
+              id="last-name"
+              placeholder="Фамилия:"
+              required
+            />
+          </div>
+        </div>
+        <div>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="E-mail:"
+            required
+          />
+        </div>
+        <div>
+          <div>
+            <input type="checkbox" name="agree" id="agree" required />
+          </div>
+          <label for="agree">Я прочитал и принимаю</label>
+          <a href="#">Условия использования</a>
+        </div>
+        <button>Зарегистрироваться</button>
+      </form>
+    </main>
+  </body>
+</html>
