@@ -1,0 +1,88 @@
+body {
+    background-color: #374151;
+}
+
+.navBlock a{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navLogo {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+.inputSearch {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+    background-color: #1F293799;
+}
+
+.directionDate {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    opacity: 0.6;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.nameDeveloper {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.profession {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #ffffff;
+    opacity: 0.6;
+}
+
+.heroText {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #ffffff;
+}
+
+.textBlock {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.copyright {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    opacity: 0.6;
+}
