@@ -1,0 +1,71 @@
+body {
+  background-color: #f39494;
+}
+
+main {
+  background-color: #fffefe;
+}
+
+input {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 21px;
+  color: #999999;
+  background-color: #f5f5f5;
+}
+
+button {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  background-color: #089fe0;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 49px;
+  color: #333333;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #333333;
+}
+
+p {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color:#666666;
+}
+
+label {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color:#666666;
+}
+
+a {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color:#089FE0;
+}
+
+form a {
+  font-size: 14px;
+  line-height: 19px;
+}
