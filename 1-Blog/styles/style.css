@@ -1,10 +1,15 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   background-color: #374151;
   margin: 0;
 }
 
 h1 {
-  font-family: sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
@@ -39,7 +44,6 @@ footer {
 }
 
 .navBlock a {
-  font-family: sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
@@ -48,7 +52,7 @@ footer {
 }
 
 .navLogo {
-  font-family: sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
@@ -60,8 +64,6 @@ footer {
 }
 
 .inputSearch {
-  font-family: sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
@@ -73,8 +75,6 @@ footer {
 }
 
 .directionDate {
-  font-family: sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   color: #ffffff;
@@ -83,8 +83,6 @@ footer {
 }
 
 .nameDeveloper {
-  font-family: sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   color: #ffffff;
@@ -92,8 +90,6 @@ footer {
 }
 
 .profession {
-  font-family: sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: 28px;
   color: #ffffff;
@@ -106,8 +102,6 @@ footer {
 }
 
 .heroText {
-  font-family: sans-serif;
-  font-weight: 400;
   font-size: 20px;
   line-height: 32px;
   color: #ffffff;
@@ -115,8 +109,6 @@ footer {
 }
 
 .textBlock {
-  font-family: sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   color: #ffffff;
@@ -124,8 +116,6 @@ footer {
 }
 
 .copyright {
-  font-family: sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   color: #ffffff;
