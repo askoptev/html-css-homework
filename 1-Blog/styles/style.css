@@ -1,25 +1,39 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   background-color: #374151;
   margin: 0;
 }
 
 h1 {
-  font-family: sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
   color: #ffffff;
   margin: 0 0 30px 0;
+  text-align: center;
 }
 
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+header {
+  display: flex;
+  padding: 80px 0;
 }
 
 nav {
-  padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 55px;
 }
 
 p {
@@ -38,8 +52,23 @@ footer {
   margin: 0 0 77px 0;
 }
 
+.container {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1095px) {
+  .container {
+    width: 1080px;
+  }
+}
+
+@media screen and (max-width: 1095px) {
+  .container {
+    min-width: 800px;
+  }
+}
+
 .navBlock a {
-  font-family: sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
@@ -47,21 +76,30 @@ footer {
   color: #ffffff;
 }
 
+.navLeftBlock {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
 .navLogo {
-  font-family: sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  color: #ffffff;
+  display: flex;
   width: 35px;
   height: 35px;
   background-color: #4b5563;
   border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navTextLogo {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;  
 }
 
 .inputSearch {
-  font-family: sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
@@ -73,18 +111,16 @@ footer {
 }
 
 .directionDate {
-  font-family: sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   color: #ffffff;
   opacity: 0.6;
-  margin: 0 0 14px 0;
+  text-align: center;
+  margin: 0 auto 14px auto;
+
 }
 
 .nameDeveloper {
-  font-family: sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   color: #ffffff;
@@ -92,8 +128,6 @@ footer {
 }
 
 .profession {
-  font-family: sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: 28px;
   color: #ffffff;
@@ -102,32 +136,45 @@ footer {
 }
 
 .profileDeveloper {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
   margin: 0 0 28px 0;
 }
 
+.imgBlock {
+  display: flex;
+  justify-content: center;
+}
+
 .heroText {
-  font-family: sans-serif;
-  font-weight: 400;
   font-size: 20px;
   line-height: 32px;
   color: #ffffff;
-  margin: 0 0 35px 0;
+  margin: 0 156px 35px;
 }
 
 .textBlock {
-  font-family: sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   color: #ffffff;
-  margin: 0 0 35px 0;
+  margin: 0 156px 35px;
 }
 
 .copyright {
-  font-family: sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   color: #ffffff;
   opacity: 0.6;
+  text-align: center;
+}
+
+.navRightBlock {
+  position: relative;
+}
+
+.searchIco {
+  position: absolute;
+  margin-left: 18px;
+  margin-top: calc((40px - 14px) / 2);
 }
