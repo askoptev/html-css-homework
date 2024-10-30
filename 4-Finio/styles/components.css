@@ -1,0 +1,35 @@
+/* button */
+.button {
+  width: 289px;
+  padding: 12px 0;
+  border: none;
+  border-radius: var(--border-47);
+  background-color: var(--color-primary);
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 140%;
+  color: var(--color-text-light);
+  cursor: pointer;
+}
+
+.button_light {
+  background-color: var(--color-button-light);
+  color: var(--color-primary);
+}
+
+.button:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.button_light:hover {
+  background-color: var(--color-button-light-hover);
+}
+
+
+.button:active {
+  background-color: var(--color-primary-active);
+}
+
+.button_light:active {
+  background-color: var(--color-button-light-active);
+}
