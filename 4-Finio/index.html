@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/layout.css" />
+    <link rel="stylesheet" href="./styles/page.css" />
+    <link rel="stylesheet" href="./styles/components.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="tariff-wrapper">
+        <h2 class="title-h2">Тарифы</h2>
+        <p class="subtitle subtitle_mb">
+          Все тарифы имеют полный функционал и отличаются только количеством
+          месяцев и выгодой
+        </p>
+        <div class="tariffs">
+          <div class="card tariff">
+            <div class="discount discount_none tariff__discount">Выгода 0%</div>
+            <h3 class="title-h3 tariff__title">1 месяц</h3>
+            <p class="subtitle tariff__subtitle">Тариф подойдёт тем, кто ведёт краткосрочные проекты</p>
+            <p class="condition tariff__total-title">Общая стоимость</p>            
+            <p class="condition tariff__total-value">1 990 &#8381;</p>
+            <hr class="hr tariff__hr1">
+            <p class="condition tariff__benefit-title">Ваша выгода</p>            
+            <p class="condition tariff__benefit-value">0 &#8381;</p>
+            <hr class="hr tariff__hr2">
+            <p class="condition tariff__month-title">Стоимость месяца</p>            
+            <p class="condition tariff__month-value">1 990 &#8381;/мес</p>
+            <button class="button tariff__button">Бесплатно 14 дней</button>
+          </div>
+
+          <div class="card tariff">
+            <div class="discount tariff__discount">Выгода 25%</div>
+            <h3 class="title-h3 tariff__title">6 месяцев</h3>
+            <p class="subtitle tariff__subtitle">Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт </p>
+            <p class="condition tariff__total-title">Общая стоимость</p>            
+            <p class="condition tariff__total-value">8 940 &#8381;</p>
+            <hr class="hr tariff__hr1">
+            <p class="condition tariff__benefit-title">Ваша выгода</p>            
+            <div class="tariff__benefit-value tariff__benefit-value_m0">
+              <p class="condition condition_benefit">3 000 &#8381;</p>
+            </div>
+            <hr class="hr tariff__hr2">
+            <p class="condition tariff__month-title">Стоимость месяца</p>            
+            <p class="condition tariff__month-value">1 490 &#8381;/мес</p>
+            <button class="button tariff__button">Бесплатно 14 дней</button>
+          </div>
+          
+          <div class="card card_active tariff">
+            <div class="discount tariff__discount">Выгода 50%</div>
+            <h3 class="title-h3 title-h3_active tariff__title">12 месяцев</h3>
+            <p class="subtitle subtitle_active subtitle_start tariff__subtitle">Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт и хочет сэкономить</p>
+            <p class="condition condition_active tariff__total-title">Общая стоимость</p>            
+            <p class="condition condition_active tariff__total-value">11 880 &#8381;</p>
+            <hr class="hr hr_active tariff__hr1">
+            <p class="condition condition_active tariff__benefit-title">Ваша выгода</p>            
+            <div class="tariff__benefit-value tariff__benefit-value_m0">
+              <p class="condition condition_benefit">12 000 &#8381;</p>
+            </div>
+            <hr class="hr hr_active tariff__hr2">
+            <p class="condition condition_active tariff__month-title">Стоимость месяца</p>            
+            <p class="condition condition_active tariff__month-value">990 &#8381;/мес</p>
+            <button class="button button_active tariff__button">Бесплатно 14 дней</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

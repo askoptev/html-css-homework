@@ -1,0 +1,12 @@
+/* tariff-wrapper */
+.tariff-wrapper {
+    max-width: 1156px;
+    margin: 0 auto 80px auto;
+  }
+  
+@media (max-width: 1250px) {
+.tariff-wrapper {
+    max-width: 328px;
+    margin: 0 auto 64px auto;
+}
+}  
