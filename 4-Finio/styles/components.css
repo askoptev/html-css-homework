@@ -1,7 +1,7 @@
 /* button */
 .button {
-  width: 289px;
-  padding: 12px 0;
+  /* width: 289px; */
+  padding: 12px 32px;
   border: none;
   border-radius: var(--border-47);
   background-color: var(--color-primary);
@@ -25,11 +25,29 @@
   background-color: var(--color-button-light-hover);
 }
 
-
 .button:active {
   background-color: var(--color-primary-active);
 }
 
 .button_light:active {
   background-color: var(--color-button-light-active);
+}
+
+/* menu */
+.menu {
+  display: flex;
+  list-style-type: none;
+  gap: 32px;
+  margin: 52px 0;
+}
+
+.menu__item a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--color-text-light-opacity-80);
+}
+
+.menu__item a:hover {
+  color: var(--color-text-light);
 }

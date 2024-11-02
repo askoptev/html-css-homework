@@ -1,7 +1,6 @@
 /* header */
 .header {  
   background-color: var(--color-bg-primary);
-  height: 600px;
 }
 
 /* section */
@@ -13,9 +12,9 @@
   background-color: var(--color-bg-primary);
 }
 
-/* wrapper */
+/* container */
 .container {
-  max-width: 1156px;
+  max-width: var(--layout-width);
   margin: 0 auto;
 }
 

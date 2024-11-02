@@ -14,25 +14,22 @@
     <link rel="stylesheet" href="./styles/layout.css" />
     <link rel="stylesheet" href="./styles/page.css" />
     <link rel="stylesheet" href="./styles/components.css" />
-    <link rel="stylesheet" href="./styles/components-header.css" />
-    <link rel="stylesheet" href="./styles/components-tariff.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/tariff.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container container_header">
-        <nav class="navigate">
-          <div class="logo">FINIO</div>
-          <ul>
-            <li><a href="#">Возможности</a></li>
-            <li><a href="#">Тарифы</a></li>
-            <li><a href="#">Отзывы</a></li>
-            <li><a href="#">Поддержка клиентов</a></li>
+      <div class="container header__container">
+        <a class="header__logo" href="#">FINIO</a>
+        <nav>
+          <ul class="menu">
+            <li class="menu__item"><a href="#">Возможности</a></li>
+            <li class="menu__item"><a href="#">Тарифы</a></li>
+            <li class="menu__item"><a href="#">Отзывы</a></li>
+            <li class="menu__item"><a href="#">Поддержка клиентов</a></li>
           </ul>
-          <button class="button button_light">
-            Личный кабинет
-          </button>
-
         </nav>
+        <button class="button button_light header__button">Личный кабинет</button>
       </div>
     </header>
     <section class="section">
@@ -46,14 +43,16 @@
           <div class="card tariff">
             <div class="discount discount_none tariff__discount">Выгода 0%</div>
             <h3 class="title-h3 tariff__title">1 месяц</h3>
-            <p class="subtitle tariff__subtitle">Тариф подойдёт тем, кто ведёт краткосрочные проекты</p>
-            <p class="condition tariff__total-title">Общая стоимость</p>            
+            <p class="subtitle tariff__subtitle">
+              Тариф подойдёт тем, кто ведёт краткосрочные проекты
+            </p>
+            <p class="condition tariff__total-title">Общая стоимость</p>
             <p class="condition tariff__total-value">1 990 &#8381;</p>
-            <hr class="hr tariff__hr1">
-            <p class="condition tariff__benefit-title">Ваша выгода</p>            
+            <hr class="hr tariff__hr1" />
+            <p class="condition tariff__benefit-title">Ваша выгода</p>
             <p class="condition tariff__benefit-value">0 &#8381;</p>
-            <hr class="hr tariff__hr2">
-            <p class="condition tariff__month-title">Стоимость месяца</p>            
+            <hr class="hr tariff__hr2" />
+            <p class="condition tariff__month-title">Стоимость месяца</p>
             <p class="condition tariff__month-value">1 990 &#8381;/мес</p>
             <button class="button tariff__button">Бесплатно 14 дней</button>
           </div>
@@ -61,35 +60,52 @@
           <div class="card tariff">
             <div class="discount tariff__discount">Выгода 25%</div>
             <h3 class="title-h3 tariff__title">6 месяцев</h3>
-            <p class="subtitle tariff__subtitle">Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт </p>
-            <p class="condition tariff__total-title">Общая стоимость</p>            
+            <p class="subtitle tariff__subtitle">
+              Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт
+            </p>
+            <p class="condition tariff__total-title">Общая стоимость</p>
             <p class="condition tariff__total-value">8 940 &#8381;</p>
-            <hr class="hr tariff__hr1">
-            <p class="condition tariff__benefit-title">Ваша выгода</p>            
+            <hr class="hr tariff__hr1" />
+            <p class="condition tariff__benefit-title">Ваша выгода</p>
             <div class="tariff__benefit-value tariff__benefit-value_m0">
               <p class="condition condition_benefit">3 000 &#8381;</p>
             </div>
-            <hr class="hr tariff__hr2">
-            <p class="condition tariff__month-title">Стоимость месяца</p>            
+            <hr class="hr tariff__hr2" />
+            <p class="condition tariff__month-title">Стоимость месяца</p>
             <p class="condition tariff__month-value">1 490 &#8381;/мес</p>
             <button class="button tariff__button">Бесплатно 14 дней</button>
           </div>
-          
+
           <div class="card card_primary tariff">
             <div class="discount tariff__discount">Выгода 50%</div>
             <h3 class="title-h3 title-h3_light tariff__title">12 месяцев</h3>
-            <p class="subtitle subtitle_light subtitle_start tariff__subtitle">Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт и хочет сэкономить</p>
-            <p class="condition condition_light tariff__total-title">Общая стоимость</p>            
-            <p class="condition condition_light tariff__total-value">11 880 &#8381;</p>
-            <hr class="hr hr_light tariff__hr1">
-            <p class="condition condition_light tariff__benefit-title">Ваша выгода</p>            
+            <p class="subtitle subtitle_light subtitle_start tariff__subtitle">
+              Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт и хочет
+              сэкономить
+            </p>
+            <p class="condition condition_light tariff__total-title">
+              Общая стоимость
+            </p>
+            <p class="condition condition_light tariff__total-value">
+              11 880 &#8381;
+            </p>
+            <hr class="hr hr_light tariff__hr1" />
+            <p class="condition condition_light tariff__benefit-title">
+              Ваша выгода
+            </p>
             <div class="tariff__benefit-value tariff__benefit-value_m0">
               <p class="condition condition_benefit">12 000 &#8381;</p>
             </div>
-            <hr class="hr hr_light tariff__hr2">
-            <p class="condition condition_light tariff__month-title">Стоимость месяца</p>            
-            <p class="condition condition_light tariff__month-value">990 &#8381;/мес</p>
-            <button class="button button_light tariff__button">Бесплатно 14 дней</button>
+            <hr class="hr hr_light tariff__hr2" />
+            <p class="condition condition_light tariff__month-title">
+              Стоимость месяца
+            </p>
+            <p class="condition condition_light tariff__month-value">
+              990 &#8381;/мес
+            </p>
+            <button class="button button_light tariff__button">
+              Бесплатно 14 дней
+            </button>
           </div>
         </div>
       </div>
