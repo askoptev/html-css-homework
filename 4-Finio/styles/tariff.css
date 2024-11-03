@@ -203,7 +203,7 @@
   margin-top: 34px;
 }
 
-@media (max-width: 1250px) {
+/* @media (max-width: 1250px) {
   .title-h2 {
     font-size: 36px;
     text-align: start;
@@ -234,4 +234,4 @@
   .tariff__button {
     margin-top: 26px;
   }
-}
+} */

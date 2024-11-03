@@ -1,5 +1,6 @@
 :root {
-  --layout-width: 1156px;
+  --layout-width: 1204px;
+  --breakpoint-1156: 1156px;
 
   --color-primary: #357efe;
   --color-primary-hover: #3173e6;
@@ -20,7 +21,8 @@
   --color-benefit: #ffc736;
   --color-button-light: #ffffff;
   --color-button-light-hover: #eeeeee;
-  --color-button-light-active: #dddddd;
+  --color-button-light-active: #dddddd;  
+  --color-border-light-opacity-16: #FFFFFF16;
 
   --border-8: 8px;
   --border-47: 47px;

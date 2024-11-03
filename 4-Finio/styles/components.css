@@ -38,7 +38,6 @@
   display: flex;
   list-style-type: none;
   gap: 32px;
-  margin: 52px 0;
 }
 
 .menu__item a {
@@ -50,4 +49,11 @@
 
 .menu__item a:hover {
   color: var(--color-text-light);
+}
+
+
+@media  (max-width: 960px ) {
+  .menu {
+    display: none;
+  }
 }
