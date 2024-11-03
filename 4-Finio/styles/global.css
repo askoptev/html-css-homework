@@ -7,6 +7,7 @@
   --color-footer: #1a1d25;
   --color-bg: #ffffff;
   --color-bg-primary: #357efe;
+
   --color-text: #4e5d7c;
   --color-text-dark: #000000;
   --color-text-light: #ffffff;
@@ -16,6 +17,9 @@
   --color-text-h1: #ffffff;
   --color-text-h2: #000000;
   --color-text-h3: #000000;
+  --color-text-h4: #000000;
+  --color-text-tooltip: #FF6536;
+
   --color-bg-discount: #1abc9c;
   --color-hr: #4e5d7c14;
   --color-hr-opacity: #ffffff29;
@@ -25,11 +29,14 @@
   --color-button-light-active: #dddddd;  
   --color-border-primary: #357efe;
   --color-border-light-opacity-16: #FFFFFF16;
+  
 
-  --border-8: 8px;
+  --border-8: 8px;  
+  --border-16: 16px;
   --border-47: 47px;
 
   --shadow: 0px 0px 32px rgba(78, 93, 124, 0.16);
+  --shadow-32: 0px 0px 32px rgba(78, 93, 124, 0.32);
 }
 
 * {
@@ -56,4 +63,8 @@ p {
 
 a {
   text-decoration: none;
+}
+
+.relative {
+  position: relative;
 }
