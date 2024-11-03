@@ -1,11 +1,13 @@
 /* header */
 .header {  
   background-color: var(--color-bg-primary);
+  border: none;
 }
 
 /* section */
 .section {
   background-color: var(--color-bg);
+  border: none;
 }
 
 .section_primary {

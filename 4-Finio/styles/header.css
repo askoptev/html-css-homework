@@ -1,6 +1,8 @@
 /* header */
 .header__container {
+  background-color: var(--color-bg-primary);
   padding-bottom: 56px;
+  border-bottom: 1px solid var(--color-border-primary);
 }
 
 .header__logo {

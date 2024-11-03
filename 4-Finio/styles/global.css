@@ -1,6 +1,5 @@
 :root {
-  --layout-width: 1204px;
-  --breakpoint-1156: 1156px;
+  --layout-width: 1392px;
 
   --color-primary: #357efe;
   --color-primary-hover: #3173e6;
@@ -9,10 +8,12 @@
   --color-bg: #ffffff;
   --color-bg-primary: #357efe;
   --color-text: #4e5d7c;
+  --color-text-dark: #000000;
   --color-text-light: #ffffff;
   --color-text-opacity: #4e5d7c50;
   --color-text-light-opacity: #ffffff99;
   --color-text-light-opacity-80: #FFFFFF80;
+  --color-text-h1: #ffffff;
   --color-text-h2: #000000;
   --color-text-h3: #000000;
   --color-bg-discount: #1abc9c;
@@ -22,6 +23,7 @@
   --color-button-light: #ffffff;
   --color-button-light-hover: #eeeeee;
   --color-button-light-active: #dddddd;  
+  --color-border-primary: #357efe;
   --color-border-light-opacity-16: #FFFFFF16;
 
   --border-8: 8px;

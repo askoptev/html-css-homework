@@ -12,10 +12,11 @@
     />
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/page.css" />
+    <link rel="stylesheet" href="./styles/components.css" />
     <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/hero.css" />
     <link rel="stylesheet" href="./styles/tariff.css" />
     <link rel="stylesheet" href="./styles/layout.css" />
-    <link rel="stylesheet" href="./styles/components.css" />
   </head>
   <body>
     <header class="header">
@@ -29,14 +30,40 @@
             <li class="menu__item"><a href="#">Поддержка клиентов</a></li>
           </ul>
         </nav>
-        <button class="button button_light header__button">Личный кабинет</button>
-        <button class="header__button-menu-mobile" 
+        <button class="button button_light header__button">
+          Личный кабинет
+        </button>
+        <button
+          class="header__button-menu-mobile"
           aria-expanded="false"
-          aria-haspopup="true">
-          <img src="./images/menu-icon.svg" alt="Кнопка мобильное меню">
+          aria-haspopup="true"
+        >
+          <img src="./images/menu-icon.svg" alt="Кнопка мобильное меню" />
         </button>
       </div>
     </header>
+    <section class="section hero">
+      <div class="hero__substrite"></div>
+      <div class="container hero__container">
+        <div class="hero__main-block">
+          <div class="hero__left">
+            <h1 class="title-h1">Простой финансовый учёт для продавцов на маркетплейсах</h1>
+            <button class="button button_light hero__button">Попробовать 14 дней бесплатно</button>
+            <div class="hero__logo-marketplaces">
+              <img src="./images/logo-marketplaces.png" alt="Лого маркетплейсов Wildberries Ozon Market AliExpress">
+            </div>
+          </div>
+          <div class="hero__right">
+            <img src="./images/hero-notebook.png" alt="Изображение ноутбука">
+          </div>
+        </div>
+        <div class="hero__bottom-block">
+          <div class="service-function"><div><img src="./images/income-icon.svg" alt="Иконка анализ прибыли"></div> Анализ прибыли по <br>товарам и брендам</div>
+          <div class="service-function"><div><img src="./images/accounting-icon.svg" alt="Иконка учета"></div>Автоматический учёт <br>доходов Wildberries</div>
+          <div class="service-function"><div><img src="./images/price-icon.svg" alt="Иконка доходность"></div>От 990 рублей в месяц <br>с полным функционалом</div>
+        </div>
+      </div>
+    </section>
     <!-- <section class="section">
       <div class="container container_tariff">
         <h2 class="title-h2">Тарифы</h2>
