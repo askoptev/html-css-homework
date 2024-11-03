@@ -21,6 +21,13 @@
   cursor: pointer;
 }
 
+/* media */
+@media (max-width: 1350px) {
+  .header__container {
+    padding-bottom: 32px;
+  }
+}
+
 @media (max-width: 960px) {
   .menu {
     display: none;
@@ -40,14 +47,4 @@
     padding-bottom: 0;
     border-bottom: 1px solid var(--color-border-light-opacity-16);
   }
-}
-
-@media (max-width: 375px) {
-  
-}
-
-@media (max-width: 1156px) {
-  /* .header {
-    max-width: 328px;
-  } */
 }

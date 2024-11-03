@@ -27,27 +27,3 @@
 .container_tariff {
   margin-bottom: 80px;
 }
-
-/* .container_header {
-  height: 400px;
-  width: 1200px;
-  background-color: var(--color-bg);
-  clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 100%);
-}
-
-.container__y {  
-  height: 180px;
-  width: 180px;
-  background-color: yellow;
-} */
-
-@media (max-width: 1156px) {
-  /* .container {
-    max-width: 328px;
-    margin: 0 auto 64px auto;
-  }
-
-  .container_tariff {
-    margin-bottom: 64px;
-  } */
-}
