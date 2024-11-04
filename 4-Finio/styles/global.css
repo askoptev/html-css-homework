@@ -13,14 +13,14 @@
   --color-text-light: #ffffff;
   --color-text-opacity: #4e5d7c50;
   --color-text-light-opacity: #ffffff99;
-  --color-text-light-opacity-80: #FFFFFF80;
+  --color-text-light-opacity-80: #ffffff80;
   --color-text-h1: #ffffff;
   --color-text-h2: #000000;
   --color-text-light-h2: #ffffff;
   --color-text-h3: #000000;
   --color-text-h4: #000000;
   --color-text-h6: #000000;
-  --color-text-tooltip: #FF6536;
+  --color-text-tooltip: #ff6536;
 
   --color-bg-discount: #1abc9c;
   --color-hr: #4e5d7c14;
@@ -28,12 +28,11 @@
   --color-benefit: #ffc736;
   --color-button-light: #ffffff;
   --color-button-light-hover: #eeeeee;
-  --color-button-light-active: #dddddd;  
+  --color-button-light-active: #dddddd;
   --color-border-primary: #357efe;
-  --color-border-light-opacity-16: #FFFFFF16;
-  
+  --color-border-light-opacity-16: #ffffff16;
 
-  --border-8: 8px;  
+  --border-8: 8px;
   --border-16: 16px;
   --border-47: 47px;
 
@@ -69,4 +68,35 @@ a {
 
 .relative {
   position: relative;
+}
+
+/* media */
+@media (max-width: 1600px) {
+  /* Уменьшение размеров изображений */
+}
+
+@media (max-width: 1440px) {
+  /* Горизонтальные маржины */
+}
+
+@media (max-width: 1350px) {
+  /* Уменьшение паддингов шрифтов и изображений */
+}
+
+@media (max-width: 1090px) {
+  /* Уменьшение размеров изображений */
+}
+
+@media (max-width: 960px) {
+  /* Вертикальное перестроение в одну колонку 
+выравнивание по левому краю, скрытие элементов */
+}
+
+@media (max-width: 535px) { 
+  /* Размер изображений под мобилку
+  гэпы и паддинги под мобилку */
+}
+
+@media (max-width: 390px) {
+/* Косая черта в hero */
 }

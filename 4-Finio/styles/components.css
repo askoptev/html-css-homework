@@ -85,6 +85,10 @@
   color: var(--color-text-h3);
 }
 
+.title-h3_light {
+  color: var(--color-text-light-h2);
+}
+
 .title-h3_mb24 {
   margin-bottom: 24px;
 }
@@ -125,6 +129,10 @@ color: var(--color-text-h6);
 
 .subtitle_light {
   color: var(--color-text-light-opacity);
+}
+
+.subtitle_light-100 {
+  color: var(--color-text-light);
 }
 
 .subtitle_mb {
@@ -203,6 +211,13 @@ color: var(--color-text-h6);
   margin-bottom: 24px;
 }
 
+/* social */
+.social {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
 /* media */
 @media (max-width: 1600px) {
   .tooltip {
@@ -275,7 +290,4 @@ color: var(--color-text-h6);
     top: 92px;
     left: 150px;
   }
-}
-
-@media (max-width: 390px) {
 }
