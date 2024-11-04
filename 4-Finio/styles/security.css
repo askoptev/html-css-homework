@@ -1,0 +1,19 @@
+.security__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 78px;
+    padding-top: 120px;
+    margin-bottom: 160px;
+}
+
+.security__img {
+    margin-bottom: 24px;
+}
+
+.security__h6 {
+    margin-bottom: 20px;
+}
+
+/* .security__subtitle {
+
+} */

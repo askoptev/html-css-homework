@@ -103,6 +103,14 @@
   color: var(--color-text-light);
 }
 
+/* title-h6 */
+.title-h6 {
+font-weight: 600;
+font-size: 32px;
+line-height: 120%;
+color: var(--color-text-h6);
+}
+
 /* subtitle */
 .subtitle {
   font-weight: 500;
