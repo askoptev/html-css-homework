@@ -72,6 +72,10 @@
   color: var(--color-text-h2);
 }
 
+.title-h2_light {
+  color: var(--color-text-light-h2);
+}
+
 /* title-h3 */
 .title-h3 {
   margin: 0;
@@ -181,6 +185,30 @@
   clip-path: polygon(0 0, 100% 0, 50% 100%, 0 0);
 }
 
+/* exclamation-list */
+/* check-list */
+.check-list, .exclamation-list {
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--color-text-light-opacity-80);  
+}
+
+/* exclamation-list */
+.exclamation-list {
+  list-style-image: url("../images/exclamation-circle-marker.svg");
+}
+
+/* check-list */
+.check-list {
+  list-style-image: url("../images/check-circle-marker.svg");  
+}
+
+.check-list li, .exclamation-list li {
+  margin-bottom: 24px;
+}
+
 /* media */
 @media (max-width: 1600px) {
   .tooltip {
@@ -236,5 +264,4 @@
 }
 
 @media (max-width: 390px) {
-  
 }
