@@ -229,6 +229,7 @@ color: var(--color-text-h6);
     font-size: 32px;
   }
 
+
   .tooltip {
     padding: 13px 19px;
     gap: 20px;
@@ -264,6 +265,10 @@ color: var(--color-text-h6);
 @media (max-width: 535px) {
   .title-h1 {
     margin: 0 0 32px 0;
+  }
+
+  .title-h6 {
+    font-size: 24px;
   }
 
   .tooltip {
