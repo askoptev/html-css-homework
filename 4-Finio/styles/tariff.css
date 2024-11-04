@@ -1,5 +1,12 @@
-/* tariffs */
-.tariffs {
+
+.tariff__container {
+  flex-direction: column;
+  margin-bottom: 80px;
+  padding: 0 118px;
+}
+
+/* tariff__cards */
+.tariff__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
@@ -76,9 +83,10 @@
   border-color: var(--color-hr-opacity);
 }
 
-/* tariff */
-.tariff {
+/* tariff__card */
+.tariff__card {
   display: grid;
+  max-width: 400px;
   gap: 6px 0;
   /* grid-template-columns: 170px 1fr; */
   grid-template-columns: 1fr auto;
@@ -161,8 +169,8 @@
   grid-area: button;
   margin-top: 34px;
 }
-
-/* @media (max-width: 1250px) {
+/* 
+@media (max-width: 1250px) {
   .title-h2 {
     font-size: 36px;
     text-align: start;
@@ -172,11 +180,11 @@
     text-align: start;
   }
 
-  .tariffs {
+  .tariff__cards {
     grid-template-columns: 1fr;
   }
 
-  .tariff {    
+  .tariff__card {    
     grid-template-columns: 160px 1fr;
   }
 
@@ -194,3 +202,40 @@
     margin-top: 26px;
   }
 } */
+
+
+/* media */
+@media (max-width: 1350px) {
+  /* Уменьшение паддингов шрифтов и изображений */
+  .tariff__container {
+    align-items: start;
+    padding: 0 24px;
+  }
+
+  .tariff__title, .tariff__subtitle {
+    align-items: start;
+  }
+  
+  .tariff__cards {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media (max-width: 1090px) {
+  /* Уменьшение размеров изображений */
+}
+
+@media (max-width: 960px) {
+  /* Вертикальное перестроение в одну колонку 
+выравнивание по левому краю, скрытие элементов */
+}
+
+@media (max-width: 535px) { 
+  /* Размер изображений под мобилку
+  гэпы и паддинги под мобилку */
+}
+
+@media (max-width: 390px) {
+/* Косая черта в hero */
+}
