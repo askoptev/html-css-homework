@@ -36,6 +36,7 @@
   padding-right: 19px;
 }
 
+/* media */
 @media (max-width: 1600px) {
   .presentation__image img {
     width: 600px;

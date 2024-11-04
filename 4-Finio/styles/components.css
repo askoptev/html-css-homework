@@ -137,20 +137,6 @@
   white-space: nowrap;
 }
 
-/* media */
-@media (max-width: 1350px) {
-  .service-function {
-    font-size: 18px;
-  }
-  .title-h1 {
-    font-size: 32px;
-  }
-
-  .title-h3 {
-    font-size: 32px;
-  }
-}
-
 /* tooltip */
 .tooltip {
   display: flex;
@@ -220,6 +206,21 @@
 }
 
 @media (max-width: 1350px) {
+  .service-function {
+    font-size: 18px;
+  }
+  .title-h1 {
+    font-size: 32px;
+  }
+
+  .title-h2 {
+    font-size: 36px;
+  }
+
+  .title-h3 {
+    font-size: 32px;
+  }
+
   .tooltip {
     padding: 13px 19px;
     gap: 20px;
