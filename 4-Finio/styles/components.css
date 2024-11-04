@@ -181,6 +181,16 @@
   clip-path: polygon(0 0, 100% 0, 50% 100%, 0 0);
 }
 
+/* media */
+@media (max-width: 1600px) {
+  .tooltip {
+    padding: 13px 19px;
+    gap: 20px;
+    top: 185px;
+    left: 275px;
+  }
+}
+
 @media (max-width: 1350px) {
   .tooltip {
     padding: 13px 19px;
@@ -188,6 +198,7 @@
     top: 222px;
     left: 368px;
   }
+
   .tooltip__message {
     font-size: 16px;
   }
@@ -197,6 +208,13 @@
     left: 50px;
     width: 47px;
     height: 23px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .tooltip {
+    top: 170px;
+    left: 290px;
   }
 }
 
@@ -210,4 +228,13 @@
   .title-h1 {
     margin: 0 0 32px 0;
   }
+
+  .tooltip {
+    top: 92px;
+    left: 150px;
+  }
+}
+
+@media (max-width: 390px) {
+  
 }

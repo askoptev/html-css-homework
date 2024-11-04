@@ -27,7 +27,8 @@
   flex-basis: 100%;
 }
 
-.presentation__h3, .presentation__subtitle {
+.presentation__h3,
+.presentation__subtitle {
   max-width: 565px;
 }
 
@@ -46,7 +47,6 @@
   .presentation__content {
     padding: 0 19px 0 0;
   }
-  
 }
 
 @media (max-width: 1090px) {
@@ -70,10 +70,15 @@
     height: auto;
   }
 
+  .presentation__image_tooltip {
+    width: 234px;
+    height: auto;
+    margin-left: -24px;
+  }
+
   .presentation__image_ml-24 {
     width: 360px;
     height: auto;
     margin-left: -24px;
-
   }
 }
