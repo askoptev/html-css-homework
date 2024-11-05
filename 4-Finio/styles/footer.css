@@ -1,5 +1,6 @@
 .footer__container {
   flex-direction: column;
+  padding-bottom: 32px;
 }
 
 .footer__main {
@@ -8,7 +9,7 @@
   width: 100%;
   border-bottom: 1px solid var(--color-border-light-opacity-8);
   padding: 80px 0 40px;
-  gap: 120px;
+  gap: 100px;
 }
 
 .footer__bottom {
@@ -16,6 +17,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  padding-top: 39px;
 }
 
 .footer__p {
@@ -67,6 +69,19 @@
     justify-content: flex-start;
     padding: 64px 0 48px;
     gap: 48px;
+  }
+
+  .footer__bottom {    
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 29px;
+    padding-top: 48px;
+  }
+
+  .footer__container {
+    padding-bottom: 64px;
   }
   
 }

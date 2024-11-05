@@ -118,7 +118,6 @@
 
   .slider__button {
     margin-bottom: 48px;
-    /* padding: 12px 23px; */
     padding: 12px 10px; /* Пришлось уменьшить Padding из-за отображения на старом ноуте */
   }
 

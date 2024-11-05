@@ -113,7 +113,6 @@
 
   .tariff__card {
     padding: 48px 24px;
-
   }
 
   .tariff__subtitle {
@@ -125,7 +124,6 @@
   .tariff__button {
     margin-top: 26px;
   }
-
 }
 
 @media (max-width: 535px) { 

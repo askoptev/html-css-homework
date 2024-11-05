@@ -6,7 +6,6 @@
 .presentation__container {
   display: flex;
   align-items: center;
-  /* gap: 80px; */
   margin-bottom: 125px;
 }
 
@@ -16,7 +15,6 @@
 
 .presentation__content {
   padding: 0 19px 0 100px;
-  /* flex-basis: 100%; */
   flex: 1;
 }
 
@@ -26,7 +24,6 @@
 
 .presentation__image {
   flex: 1;
-  /* flex-basis: 100%; */
 }
 
 .presentation__h3,

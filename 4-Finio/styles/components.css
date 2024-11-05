@@ -17,10 +17,8 @@
   color: var(--color-text-light);
 }
 
-
 /* button */
 .button {
-  /* width: 289px; */
   display: inline-block;
   padding: 12px 32px;
   border: none;
@@ -138,10 +136,10 @@
   
 /* title-h6 */
 .title-h6 {
-font-weight: 600;
-font-size: 32px;
-line-height: 120%;
-color: var(--color-text-h6);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  color: var(--color-text-h6);
 }
 
 /* subtitle */
@@ -289,7 +287,6 @@ color: var(--color-text-h6);
   color: var(--color-text);
   align-self: center;
   white-space: nowrap;
-  /* padding: 0 0 8px 0; */
 }
 
 .condition_light {
@@ -343,14 +340,19 @@ color: var(--color-text-h6);
   opacity: 60%;
   box-shadow: var(--shadow-32);
   background-color: var(--color-bg);
-}
-
-.chevron_active {
-  opacity: 100%;
-}
-
-.chevron {
   padding: 10px 16px 10px 12px;
+  cursor: pointer;
+}
+
+.chevron:hover {
+  opacity: 100%;  
+}
+
+.chevron:active {
+  opacity: 100%;  
+  width: 42px;
+  height: 42px;
+  padding: 11px 17px 11px 13px;
 }
 
 .chevron img {
@@ -360,7 +362,7 @@ color: var(--color-text-h6);
 
 /* copyright */
 .copyright {
-  padding: 39px 0;
+  padding: 0;
   font-weight: 500;
   font-size: 17px;
   line-height: 140%;
@@ -399,7 +401,6 @@ color: var(--color-text-h6);
   .title-h3 {
     font-size: 32px;
   }
-
 
   .tooltip {
     padding: 13px 19px;
