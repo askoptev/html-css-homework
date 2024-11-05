@@ -8,6 +8,16 @@
   padding: 0 24px;
 }
 
+/* logo */
+.logo {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: var(--color-text-light);
+}
+
+
 /* button */
 .button {
   /* width: 289px; */
@@ -346,6 +356,22 @@ color: var(--color-text-h6);
 .chevron img {
   margin: 0;
   padding: 0;
+}
+
+/* copyright */
+.copyright {
+  padding: 39px 0;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  color: var(--color-text-light-opacity-70);
+}
+
+.payment {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
 }
 
 /* media */

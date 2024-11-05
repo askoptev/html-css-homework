@@ -14,6 +14,8 @@
   --color-text-light: #ffffff;
   --color-text-opacity: #4e5d7c50;
   --color-text-light-opacity: #ffffff99;
+  --color-text-light-opacity-50: #ffffff50;
+  --color-text-light-opacity-70: #ffffff70;
   --color-text-light-opacity-80: #ffffff80;
   --color-text-h1: #ffffff;
   --color-text-h2: #000000;
@@ -33,6 +35,7 @@
   --color-button-light-active: #dddddd;
   --color-border-primary: #357efe;
   --color-border-light-opacity-16: #ffffff16;
+  --color-border-light-opacity-8: #ffffff08;
 
   --border-8: 8px;
   --border-16: 16px;
