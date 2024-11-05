@@ -422,14 +422,21 @@
     <section class="section reviews">
       <div class="container rewiews__container">
         <h2 class="title-h2 reviews__title">Отзывы</h2>
-        <div class="card card_primary reviews__card">
+        <div class="card card_primary reviews__card relative">
+          <button class="chevron reviews__button-left"><img src="./images/chevron.svg" alt="Кнопка листать влево"></button>
           <div class="rewies__card-content">
             <h5 class="title-h5 reviews__h5">Впервые за долгое время увидела свои расходы и доходы как на ладони.</h5>
             <p class="reviews__name">Дана Валеева</p>
             <p class="rewiews__work-position">Продавец Wildberries</p>
+            <div class="pagination reviews__pagination">
+              <div class="pagination__item pagination__item_active"></div>
+              <div class="pagination__item"></div>
+              <div class="pagination__item"></div>
+              <div class="pagination__item"></div>
+            </div>
           </div>
           <div class="reviews__card-image"><img src="./images/reviews.png" alt="Девушка улыбается"></div>
-
+          <button class="chevron reviews__button-right chevron_active"><img src="./images/chevron.svg" alt="Кнопка листать вправо"></button>
         </div>
       </div>
     </section>

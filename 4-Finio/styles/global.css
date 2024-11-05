@@ -6,6 +6,7 @@
   --color-primary-active: #2661c6;
   --color-footer: #1a1d25;
   --color-bg: #ffffff;
+  --color-bg-50: #ffffff50;
   --color-bg-primary: #357efe;
 
   --color-text: #4e5d7c;
@@ -39,6 +40,7 @@
 
   --shadow: 0px 0px 32px rgba(78, 93, 124, 0.16);
   --shadow-32: 0px 0px 32px rgba(78, 93, 124, 0.32);
+  
 }
 
 * {

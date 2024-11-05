@@ -119,6 +119,7 @@
 
 /* title-h5 */
 .title-h5 {
+  margin: 0;
   font-weight: 700;
   font-size: 28px;
   line-height: 140%;  
@@ -306,6 +307,46 @@ color: var(--color-text-h6);
   border-color: var(--color-hr-opacity);
 }
 
+/* pagination */
+.pagination {
+  display: flex;
+  gap: 8px;
+}
+
+.pagination__item {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--color-bg-50);
+}
+
+.pagination__item_active {
+  background-color: var(--color-bg);
+}
+
+/* chevron */
+.chevron {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  opacity: 60%;
+  box-shadow: var(--shadow-32);
+  background-color: var(--color-bg);
+}
+
+.chevron_active {
+  opacity: 100%;
+}
+
+.chevron {
+  padding: 10px 16px 10px 12px;
+}
+
+.chevron img {
+  margin: 0;
+  padding: 0;
+}
 
 /* media */
 @media (max-width: 1600px) {
