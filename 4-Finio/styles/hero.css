@@ -114,7 +114,8 @@
 @media (max-width: 535px) {
   .hero__button {
     margin-bottom: 56px;
-    padding: 12px 23px;
+    padding: 12px 10px;
+    padding: 12px 10px; /* Пришлось уменьшить Padding из-за отображения на старом ноуте */
   }
 
   .hero__container {

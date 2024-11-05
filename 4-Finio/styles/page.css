@@ -14,13 +14,3 @@
   background-color: var(--color-bg-primary);
 }
 
-/* container */
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: var(--layout-width);
-  margin: 0 auto;
-  padding: 0 24px;
-}
-
