@@ -117,6 +117,14 @@
   color: var(--color-text-light);
 }
 
+/* title-h5 */
+.title-h5 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 140%;  
+  color: var(--color-text-h5);
+  }
+  
 /* title-h6 */
 .title-h6 {
 font-weight: 600;
@@ -227,7 +235,6 @@ color: var(--color-text-h6);
   align-items: center;
   gap: 16px;
 }
-
 
 /* card */
 .card {

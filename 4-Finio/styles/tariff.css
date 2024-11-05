@@ -127,3 +127,10 @@
   }
 
 }
+
+@media (max-width: 535px) { 
+  .tariff__container {
+    margin-bottom: 64px;
+  }
+}
+
