@@ -1,7 +1,12 @@
-.rewiews__container {
-  margin-bottom: 80px;
+.reviews {
+  padding: 0 24px 80px;
+}
+
+.reviews__wrapper {
+  display: flex;
   flex-direction: column;
-  padding: 0 118px;
+  padding: 0 59px;
+  margin: 0 59px;
 }
 
 .reviews__title {
@@ -32,7 +37,9 @@ color: var(--color-text-light);
 .rewies__card-content {
   display: flex;
   flex-direction: column;
-  padding: 120px 104px 0 104px;
+  max-width: 370px;
+  justify-content: center;
+  justify-self: center;
 }
 
 .reviews__card-image {
@@ -70,9 +77,14 @@ color: var(--color-text-light);
 
 /* media */
 @media (max-width: 1350px) {
-  .rewiews__container {
+  .reviews {
+    padding: 0 24px 64px;
+  }
+  
+  .reviews__wrapper {
     align-items: start;
-    padding: 0 24px;    
+    padding: 0;
+    margin: 0;    
   }
   
   .reviews__h5 {
@@ -87,6 +99,7 @@ color: var(--color-text-light);
   
   .rewies__card-content {
     padding: 48px 24px;
+    max-width: 578px;    
   }
     
   .reviews__h5 {

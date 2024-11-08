@@ -1,8 +1,14 @@
 
-.tariff__container {
+.tariff {
+  padding: 0 24px 80px;
+}
+
+.tariff__wrapper {
+  display: flex;
   flex-direction: column;
-  margin-bottom: 80px;
-  padding: 0 118px;
+  align-items: center;
+  padding: 0 70px;
+  margin: 0 72px;
 }
 
 .tariff__cards {
@@ -98,9 +104,14 @@
 
 /* media */
 @media (max-width: 1350px) {
-  .tariff__container {
+  .tariff {    
+    padding: 0 24px 80px;
+  }
+
+  .tariff__wrapper {
     align-items: start;
-    padding: 0 24px;
+    padding: 0;
+    margin: 0;
   }
 
   .tariff__title, .tariff__subtitle {
@@ -126,9 +137,10 @@
   }
 }
 
-@media (max-width: 535px) { 
-  .tariff__container {
-    margin-bottom: 64px;
+@media (max-width: 535px) {   
+  .tariff {
+    padding: 0 24px 64px;
   }
+
 }
 

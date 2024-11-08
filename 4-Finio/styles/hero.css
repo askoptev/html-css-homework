@@ -1,8 +1,8 @@
 .hero {
-  background-color: var(--color-bg);
   border: none;
   position: relative;
   z-index: -2;
+  padding-bottom: 144px;
 }
 
 .hero__substrite {
@@ -22,18 +22,11 @@
   will-change: transform;
 }
 
-.hero__container {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 80px;
-  margin-bottom: 147px;
-}
-
 .hero__main-block {
   display: flex;
   justify-content: space-between;
   align-items: start;
+  padding-bottom: 80px;
 }
 
 .hero__left {
@@ -58,14 +51,16 @@
 .hero__right {
   margin-right: -102px;
   width: 100%;
-}
-
-.hero__right img {
-  width: 100%;
+  max-width: 965px;
 }
 
 .hero__logo-marketplaces {
+  max-width: 334px;
   width: 100%;
+}
+
+.hero__icon {
+  max-width: 64px;
 }
 
 /* media */
@@ -76,9 +71,12 @@
 }
 
 @media (max-width: 1350px) {
-  .hero__logo-marketplaces img {
+  .hero {
+    padding-bottom: 97px;
+  }
+  
+  .hero__logo-marketplaces {
     width: 264px;
-    height: auto;
   }
 
   .hero__bottom-block {
@@ -102,12 +100,10 @@
   .hero__left {
     width: 100%;
   }
-  .hero__container {
-    padding-top: 32px;
-  }
 
   .hero__bottom-block {
     grid-template-columns: 1fr;
+    padding-top: 55px;
   }
 }
 
@@ -116,10 +112,6 @@
     margin-bottom: 56px;
     padding: 12px 10px;
     padding: 12px 10px; /* Пришлось уменьшить Padding из-за отображения на старом ноуте */
-  }
-
-  .hero__container {
-    gap: 135px;
   }
 }
 

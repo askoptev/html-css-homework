@@ -1,10 +1,12 @@
+.slider {
+padding: 120px 24px;
+}
+
 .slider__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: start;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .slider__h3 {
@@ -33,14 +35,18 @@
 
 .slider__left-img {
   justify-self: end;
+  max-width: 598px;
 }
 
 .slider__right-img {
   overflow: hidden;
+  width: 100%;
+  max-width: 1155px;
 }
 
 .slider__right-img img {
   transform: translateX(-50%);
+  width: 167%;
 }
 
 .slider__swipe {
@@ -61,10 +67,15 @@
   font-size: 24px;
   line-height: 120%;
   color: var(--color-text-light);
+  margin-bottom: 24px;
 }
 
 /* media */
 @media (max-width: 1350px) {
+  .slider {
+    padding: 64px 24px;
+  }
+
   .slider__left-img {
     width: 70%;
   }
@@ -74,10 +85,6 @@
     border-bottom-right-radius: var(--border-16);
     justify-self: start;
     width: 70%;
-  }
-
-  .slider__left-img img {
-    width: 100%;
   }
 
   .slider__right-img img {
@@ -108,25 +115,17 @@
     width: 100%;
   }
 
-  .slider__right-img img {
-    width: 192%;
-  }
-
   .slider__subtitle {
     margin-bottom: 32px;
   }
 
   .slider__button {
     margin-bottom: 48px;
-    padding: 12px 10px; /* Пришлось уменьшить Padding из-за отображения на старом ноуте */
+    padding: 12px 10px;
   }
 
   .slider__slider {
     margin-bottom: 54px;
   }
 
-  .slider__container {
-    padding-top: 64px;
-    padding-bottom: 64px;
-  }
 }

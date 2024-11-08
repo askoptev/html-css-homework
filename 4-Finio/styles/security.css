@@ -1,13 +1,15 @@
-.security__container {
+.security {
+  padding: 120px 24px 160px;
+}
+.security__wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 78px;
-  padding-top: 120px;
-  margin-bottom: 160px;
 }
 
 .security__img {
   margin-bottom: 24px;
+  max-width: 80px;
 }
 
 .security__h6 {
@@ -16,7 +18,7 @@
 
 /* media */
 @media (max-width: 960px) {
-  .security__container {
+  .security__wrapper {
     grid-template-columns: 1fr;
   }
 }
@@ -25,8 +27,12 @@
   .security__h6 {
     margin-bottom: 24px;
   }
-  .security__container {
-    margin-bottom: 97px;
+
+  .security__wrapper {
     gap: 32px;
+  }
+
+  .security {
+    padding: 64px 24px 97px;
   }
 }

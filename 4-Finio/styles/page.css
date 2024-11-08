@@ -2,12 +2,14 @@
 .header {  
   background-color: var(--color-bg-primary);
   border: none;
+  padding: 40px 24px 98px;
 }
 
 /* section */
 .section {
   background-color: var(--color-bg);
   border: none;
+  padding: 0 24px;
 }
 
 .section_primary {
@@ -18,4 +20,16 @@
 .footer {
   background-color: var(--color-footer);
   border: none;
+  padding: 80px 24px 39px;
+}
+
+/* media */
+@media (max-width: 1350px) {
+  .header {
+    padding: 28px 24px 32px;
+  }
+
+  .footer {
+    padding: 64px 24px;
+  }
 }

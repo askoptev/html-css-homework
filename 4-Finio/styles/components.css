@@ -1,11 +1,8 @@
 /* container */
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   max-width: var(--layout-width);
   margin: 0 auto;
-  padding: 0 24px;
+  width: 100%;
 }
 
 /* logo */
@@ -222,11 +219,13 @@
   font-size: 18px;
   line-height: 140%;
   color: var(--color-text-light-opacity-80);  
+  padding-left: 24px;
 }
 
 /* exclamation-list */
 .exclamation-list {
   list-style-image: url("../images/exclamation-circle-marker.svg");
+  
 }
 
 /* check-list */
@@ -243,6 +242,10 @@
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+.social__icon {
+  max-width: 32px;
 }
 
 /* card */
@@ -304,14 +307,18 @@
 
 /* hr */
 .hr {
-  border-color: var(--color-hr);
+  background-color: var(--color-hr);
   width: 100%;
   height: 1px;
-  margin: 0;
+  border: none;
 }
 
 .hr_light {
-  border-color: var(--color-hr-opacity);
+  background-color: var(--color-hr-opacity-29);
+}
+
+.hr_light-16 {  
+  background-color: var(--color-hr-opacity-16);
 }
 
 /* pagination */

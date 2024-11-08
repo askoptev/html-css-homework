@@ -27,13 +27,15 @@
   --color-text-tooltip: #ff6536;
 
   --color-bg-discount: #1abc9c;
+
   --color-hr: #4e5d7c14;
-  --color-hr-opacity: #ffffff29;
+  --color-hr-opacity-29: #ffffff29;
+  --color-hr-opacity-16: #ffffff16;
+
   --color-benefit: #ffc736;
   --color-button-light: #ffffff;
   --color-button-light-hover: #eeeeee;
   --color-button-light-active: #dddddd;
-  --color-border-primary: #357efe;
   --color-border-light-opacity-16: #ffffff16;
   --color-border-light-opacity-8: #ffffff08;
 
@@ -46,8 +48,40 @@
   
 }
 
-* {
+*,
+*::before,
+*::after  {
   box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img,
+svg {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+body,
+html {
+  height: 100%;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -58,14 +92,9 @@ html {
 
 body {
   background-color: var(--color-bg);
-  margin: 0;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-}
-
-p {
-  margin: 0;
 }
 
 a {
