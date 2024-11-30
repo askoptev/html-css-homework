@@ -1,0 +1,38 @@
+.security {
+  padding: 120px 24px 160px;
+}
+.security__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 78px;
+}
+
+.security__img {
+  margin-bottom: 24px;
+  max-width: 80px;
+}
+
+.security__h6 {
+  margin-bottom: 20px;
+}
+
+/* media */
+@media (max-width: 960px) {
+  .security__wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 535px) {
+  .security__h6 {
+    margin-bottom: 24px;
+  }
+
+  .security__wrapper {
+    gap: 32px;
+  }
+
+  .security {
+    padding: 64px 24px 97px;
+  }
+}

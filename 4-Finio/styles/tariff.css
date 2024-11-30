@@ -1,0 +1,146 @@
+
+.tariff {
+  padding: 0 24px 80px;
+}
+
+.tariff__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 70px;
+  margin: 0 72px;
+}
+
+.tariff__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.tariff__card {
+  display: grid;
+  max-width: 400px;
+  gap: 6px 0;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: repeat(9, auto);
+  grid-template-areas:
+    "discount discount"
+    "title title"
+    "subtitle subtitle"
+    "total-title total-value"
+    "tariff__hr1 tariff__hr1"
+    "benefit-title benefit-value"
+    "tariff__hr2 tariff__hr2"
+    "month-title month-value"
+    "button button";
+}
+
+.tariff__discount {
+  grid-area: discount;
+  margin-bottom: 10px;
+}
+
+.tariff__title {
+  grid-area: title;
+  justify-self: start;
+  margin-bottom: 10px;
+}
+
+.tariff__subtitle {
+  grid-area: subtitle;
+  justify-self: start;
+  margin: 0 0 26px 0;
+  text-align: start;
+  height: 72px;
+}
+
+.tariff__total-title {
+  grid-area: total-title;
+}
+
+.tariff__total-value {
+  grid-area: total-value;
+  padding-left: 16px;
+  margin: 5px 0;
+}
+
+.tariff__benefit-title {
+  grid-area: benefit-title;
+}
+
+.tariff__benefit-value {
+  grid-area: benefit-value;
+  padding-left: 16px;
+  margin: 5px 0;
+}
+
+.tariff__benefit-value_m0 {
+  margin: 0;
+  padding-left: 0;
+}
+
+.tariff__month-title {
+  grid-area: month-title;
+}
+
+.tariff__month-value {
+  grid-area: month-value;
+  padding-left: 16px;
+  margin: 5px 0;
+}
+
+.tariff__hr1 {
+  grid-area: tariff__hr1;
+}
+
+.tariff__hr2 {
+  grid-area: tariff__hr2;
+}
+
+.tariff__button {
+  grid-area: button;
+  margin-top: 34px;
+}
+
+/* media */
+@media (max-width: 1350px) {
+  .tariff {    
+    padding: 0 24px 80px;
+  }
+
+  .tariff__wrapper {
+    align-items: start;
+    padding: 0;
+    margin: 0;
+  }
+
+  .tariff__title, .tariff__subtitle {
+    align-items: start;
+  }
+  
+  .tariff__cards {
+    grid-template-columns: 1fr;
+  }
+
+  .tariff__card {
+    padding: 48px 24px;
+  }
+
+  .tariff__subtitle {
+    margin: 0 0 26px 0;
+    text-align: start;
+    height: auto;
+  }
+  
+  .tariff__button {
+    margin-top: 26px;
+  }
+}
+
+@media (max-width: 535px) {   
+  .tariff {
+    padding: 0 24px 64px;
+  }
+
+}
+

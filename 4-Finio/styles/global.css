@@ -1,0 +1,136 @@
+:root {
+  --layout-width: 1392px;
+
+  --color-primary: #357efe;
+  --color-primary-hover: #3173e6;
+  --color-primary-active: #2661c6;
+  --color-footer: #1a1d25;
+  --color-bg: #ffffff;
+  --color-bg-50: #ffffff50;
+  --color-bg-primary: #357efe;
+
+  --color-text: #4e5d7c;
+  --color-text-dark: #000000;
+  --color-text-light: #ffffff;
+  --color-text-opacity: #4e5d7c50;
+  --color-text-light-opacity: #ffffff99;
+  --color-text-light-opacity-50: #ffffff50;
+  --color-text-light-opacity-70: #ffffff70;
+  --color-text-light-opacity-80: #ffffff80;
+  --color-text-h1: #ffffff;
+  --color-text-h2: #000000;
+  --color-text-light-h2: #ffffff;
+  --color-text-h3: #000000;
+  --color-text-h4: #000000;
+  --color-text-h5: #ffffff;
+  --color-text-h6: #000000;
+  --color-text-tooltip: #ff6536;
+
+  --color-bg-discount: #1abc9c;
+
+  --color-hr: #4e5d7c14;
+  --color-hr-opacity-29: #ffffff29;
+  --color-hr-opacity-16: #ffffff16;
+
+  --color-benefit: #ffc736;
+  --color-button-light: #ffffff;
+  --color-button-light-hover: #eeeeee;
+  --color-button-light-active: #dddddd;
+  --color-border-light-opacity-16: #ffffff16;
+  --color-border-light-opacity-8: #ffffff08;
+
+  --border-8: 8px;
+  --border-16: 16px;
+  --border-47: 47px;
+
+  --shadow: 0px 0px 32px rgba(78, 93, 124, 0.16);
+  --shadow-32: 0px 0px 32px rgba(78, 93, 124, 0.32);
+  
+}
+
+*,
+*::before,
+*::after  {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img,
+svg {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+body,
+html {
+  scroll-behavior: smooth;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: var(--color-bg);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.relative {
+  position: relative;
+}
+
+/* media */
+@media (max-width: 1600px) {
+  /* Уменьшение размеров изображений */
+}
+
+@media (max-width: 1440px) {
+  /* Горизонтальные маржины */
+}
+
+@media (max-width: 1350px) {
+  /* Уменьшение паддингов шрифтов и изображений */
+}
+
+@media (max-width: 1090px) {
+  /* Уменьшение размеров изображений */
+}
+
+@media (max-width: 960px) {
+  /* Вертикальное перестроение в одну колонку 
+выравнивание по левому краю, скрытие элементов */
+}
+
+@media (max-width: 535px) { 
+  /* Размер изображений под мобилку
+  гэпы и паддинги под мобилку */
+}
+
+@media (max-width: 390px) {
+/* Косая черта в hero */
+}

@@ -1,0 +1,122 @@
+.hero {
+  border: none;
+  position: relative;
+  z-index: -2;
+  padding-bottom: 144px;
+}
+
+.hero__substrite {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: clamp(420px, 35vw, 560px);
+  background-color: var(--color-bg-primary);
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 100vw * 0.122784561),
+    0 100%
+  );
+  will-change: transform;
+}
+
+.hero__main-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding-bottom: 80px;
+}
+
+.hero__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 50%;
+}
+
+.hero__bottom-block {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 64px;
+}
+
+.hero__button {
+  margin-bottom: 80px;
+}
+
+.hero__right {
+  margin-right: -102px;
+  width: 100%;
+  max-width: 965px;
+}
+
+.hero__logo-marketplaces {
+  max-width: 334px;
+  width: 100%;
+}
+
+.hero__icon {
+  max-width: 64px;
+}
+
+/* media */
+@media (max-width: 1600px) {
+  .hero__right {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1350px) {
+  .hero {
+    padding-bottom: 97px;
+  }
+  
+  .hero__logo-marketplaces {
+    width: 264px;
+  }
+
+  .hero__bottom-block {
+    gap: 32px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .hero__left {
+    width: 60%;
+  }
+  .hero__right {
+    width: 90%;
+  }
+}
+
+@media (max-width: 960px) {
+  .hero__right {
+    display: none;
+  }
+  .hero__left {
+    width: 100%;
+  }
+
+  .hero__bottom-block {
+    grid-template-columns: 1fr;
+    padding-top: 55px;
+  }
+}
+
+@media (max-width: 535px) {
+  .hero__button {
+    margin-bottom: 56px;
+    padding: 12px 10px;
+    padding: 12px 10px; /* Пришлось уменьшить Padding из-за отображения на старом ноуте */
+  }
+}
+
+@media (max-width: 390px) {
+  .hero__substrite {
+    height: clamp(450px, 35vw, 560px);
+  }
+}
